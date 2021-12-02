@@ -1,0 +1,24 @@
+{
+    "name": "salem/first-package",
+    "description": "laravel learn create package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Salem Saber",
+            "email": "salem.saber97@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Salem\\FirstPackage\\" :"src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers" : [
+                "Salem\\FirstPackage\\FirstPackageServiceProvider"
+            ]
+        }
+    }
+}
