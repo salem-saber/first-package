@@ -1,6 +1,6 @@
 <?php
 
-namespace Salem\FirstPackage;
+namespace SalemSaber\FirstPackage;
 
 class FirstPackage
 {

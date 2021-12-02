@@ -1,5 +1,5 @@
 {
-    "name": "salem/first-package",
+    "name": "salem-saber/first-package",
     "description": "laravel learn create package",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,7 @@
     "extra": {
         "laravel": {
             "providers" : [
-                "Salem\\FirstPackage\\FirstPackageServiceProvider"
+                "SalemSaber\\FirstPackage\\FirstPackageServiceProvider"
             ]
         }
     }
